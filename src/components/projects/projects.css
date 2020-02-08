@@ -1,0 +1,80 @@
+.Projects {
+    text-align: center;
+    background-color: white;
+    height: 225vh;
+    margin-left: 30%;
+}
+
+.Projects__content {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.Projects__title {
+    margin: 0 auto 30px;
+    font-size: 3vh;
+    color: darkblue
+}
+.App__item {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.App__item_title {
+    color: darkblue
+}
+
+.App__item_image {
+    width: 70%;
+    margin-bottom: 20px;
+    max-width: 575px;
+}
+
+.description {
+    width: 80%;
+    line-height: 1.5em;
+    margin: auto;
+    font-size: 2vh;
+    color: darkblue;
+    max-width: 380px;
+}
+
+.techs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.App__item_link {
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 2.2vh;
+}
+
+.App__item_title {
+    font-size: 2.5vh;
+}
+.firebase_icon {
+    width: 28px;
+    height: 32px;
+}
+
+.projects_anchor_content {
+    color: white;
+    margin: 0;
+}
+
+@media (min-width: 1330px) {
+    .Projects {
+        margin-left: 400px;
+    }
+}

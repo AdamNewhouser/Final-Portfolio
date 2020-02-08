@@ -1,0 +1,36 @@
+.Landing {
+    text-align: center;
+    margin-left: 30%;
+    height: 100vh;
+}
+
+.Landing__content {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.Landing__image {
+    margin: 0 auto 5px;
+    width: 60%;
+    border-radius: 30%;
+    max-width: 750px;
+}
+
+.Landing__tag {
+    margin: 5px auto;
+    font-size: 3.5vh;
+    color: darkblue
+}
+
+.landing_anchor_content {
+    color: white;
+    margin: 0;
+}
+
+@media (min-width: 1330px) {
+    .Landing {
+        margin-left: 400px;
+    }
+}

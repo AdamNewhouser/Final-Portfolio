@@ -1,0 +1,40 @@
+
+.About{
+    text-align: center;
+    background-color: darkblue;
+    height: 100vh;
+    margin-left: 30%;
+}
+
+.About__title {
+    margin: 0 auto 15px;
+    font-size: 3vh;
+}
+
+.About__bio {
+    margin: auto;
+    width: 80%;
+    font-size: 2vh;
+    line-height: 1.5em;
+    max-width: 720px;
+}
+
+.About__content {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: auto;
+    color: white;
+}
+
+.about_anchor_content {
+    color: darkblue;
+    margin: 0;
+}
+
+@media (min-width: 1330px) {
+    .About {
+        margin-left: 400px;
+    }
+}
