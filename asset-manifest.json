@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Final-Portfolio/static/css/main.81fbd1c2.chunk.css",
+    "main.js": "/Final-Portfolio/static/js/main.bbd67c21.chunk.js",
+    "main.js.map": "/Final-Portfolio/static/js/main.bbd67c21.chunk.js.map",
+    "runtime-main.js": "/Final-Portfolio/static/js/runtime-main.1c730e4a.js",
+    "runtime-main.js.map": "/Final-Portfolio/static/js/runtime-main.1c730e4a.js.map",
+    "static/js/2.591b5900.chunk.js": "/Final-Portfolio/static/js/2.591b5900.chunk.js",
+    "static/js/2.591b5900.chunk.js.map": "/Final-Portfolio/static/js/2.591b5900.chunk.js.map",
+    "index.html": "/Final-Portfolio/index.html",
+    "precache-manifest.16ab34cf1aaae4ba0c3ce930c48da7b2.js": "/Final-Portfolio/precache-manifest.16ab34cf1aaae4ba0c3ce930c48da7b2.js",
+    "service-worker.js": "/Final-Portfolio/service-worker.js",
+    "static/css/main.81fbd1c2.chunk.css.map": "/Final-Portfolio/static/css/main.81fbd1c2.chunk.css.map",
+    "static/js/2.591b5900.chunk.js.LICENSE.txt": "/Final-Portfolio/static/js/2.591b5900.chunk.js.LICENSE.txt",
+    "static/media/adam_brady.JPG": "/Final-Portfolio/static/media/adam_brady.fcd1669c.JPG",
+    "static/media/manageLazily.png": "/Final-Portfolio/static/media/manageLazily.63f919d1.png",
+    "static/media/space-quiz-project.png": "/Final-Portfolio/static/media/space-quiz-project.1e004afa.png",
+    "static/media/spaced-repetition.png": "/Final-Portfolio/static/media/spaced-repetition.3c2d6a3a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c730e4a.js",
+    "static/js/2.591b5900.chunk.js",
+    "static/css/main.81fbd1c2.chunk.css",
+    "static/js/main.bbd67c21.chunk.js"
+  ]
+}
