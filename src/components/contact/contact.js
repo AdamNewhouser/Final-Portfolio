@@ -4,7 +4,7 @@ import './contact.css'
 export default class Contact extends Component {
     render() {
         return (
-            <div className='Contact'>
+            <div className='Contact' id='contact'>
             <a name='contact' href="http://localhost:3000#contact">
                 <p className='contact_anchor_content'>contact</p>
             </a>

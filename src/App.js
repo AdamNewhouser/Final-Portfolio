@@ -5,6 +5,7 @@ import Projects from './components/projects/projects'
 import Contact from './components/contact/contact'
 import Landing from './components/landing/landing'
 
+
 function App() {
   return (
     <>

@@ -1,7 +1,7 @@
 .Projects {
     text-align: center;
     background-color: white;
-    height: 225vh;
+    height: 250vh;
     margin-left: 30%;
 }
 
@@ -18,7 +18,8 @@
 .Projects__title {
     margin: 0 auto 30px;
     font-size: 3vh;
-    color: darkblue
+    color: darkblue;
+    text-decoration: underline;
 }
 .App__item {
     text-align: center;
@@ -26,7 +27,8 @@
 }
 
 .App__item_title {
-    color: darkblue
+    color: darkblue;
+    margin-top: 75px;
 }
 
 .App__item_image {

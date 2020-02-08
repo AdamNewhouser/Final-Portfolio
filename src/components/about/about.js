@@ -4,7 +4,7 @@ import "./about.css";
 export default class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="About" id='about'>
         <a name="about" href="http://localhost:3000#about">
           <p className='about_anchor_content'>about</p>
         </a>

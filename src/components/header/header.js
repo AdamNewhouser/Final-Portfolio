@@ -3,6 +3,7 @@ import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-scroll";
 
 export default class Header extends Component {
   render() {
@@ -10,10 +11,17 @@ export default class Header extends Component {
       <>
         <nav className="Header">
           <div className="Header__content">
-            <a href="http://localhost:3000#landing">
+            <Link
+              className="Nav__about nav-item"
+              activeClass="active"
+              to="landing"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               <h1 className="Header__name">Adam Newhouser</h1>
-            </a>
-
+            </Link>
             <div className="Header__socials">
               <a
                 className="Header__social_icon"
@@ -21,7 +29,11 @@ export default class Header extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} size='3x' className='social_link'/>
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  size="3x"
+                  className="social_link"
+                />
               </a>
               <a
                 className="Header__social_icon"
@@ -29,19 +41,47 @@ export default class Header extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin}  size='3x' className='social_link'/>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="3x"
+                  className="social_link"
+                />
               </a>
             </div>
             <ul className="Nav">
-              <a href="http://localhost:3000#about">
-                <li className="Nav__about nav-item">About</li>
-              </a>
-              <a href="http://localhost:3000#projects">
-                <li className="Nav__projects nav-item">Projects</li>
-              </a>
-              <a href="http://localhost:3000#contact">
-                <li className="Nav__contact nav-item">Contact</li>
-              </a>
+              <Link
+                className="Nav__about nav-item"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                About
+              </Link>
+              <Link
+                className="Nav__about nav-item"
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Projects
+              </Link>
+              <Link
+                className="Nav__about nav-item"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Contact
+              </Link>
             </ul>
           </div>
         </nav>

@@ -7,8 +7,9 @@
 }
 
 .About__title {
-    margin: 0 auto 15px;
+    margin: 0 auto 50px;
     font-size: 3vh;
+    text-decoration: underline;
 }
 
 .About__bio {
